@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Validate Open weather map API" duration-ms="2462" started-at="2021-04-22T11:19:57Z" finished-at="2021-04-22T11:19:59Z">
+    <groups>
+    </groups>
+    <test name="Verify predicted temperatures of 7 days and find the number of sunny days" duration-ms="2462" started-at="2021-04-22T11:19:57Z" finished-at="2021-04-22T11:19:59Z">
+      <class name="com.qa.test.WeatherAPITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.WeatherAPITest@4678c730]" name="setup" is-config="true" duration-ms="42" started-at="2021-04-22T11:19:57Z" finished-at="2021-04-22T11:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateResponseCodeTest()[pri:1, instance:com.qa.test.WeatherAPITest@4678c730]" name="validateResponseCodeTest" duration-ms="2056" started-at="2021-04-22T11:19:57Z" finished-at="2021-04-22T11:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCodeTest -->
+        <test-method status="PASS" signature="validateLatitudeLongitudeTest()[pri:2, instance:com.qa.test.WeatherAPITest@4678c730]" name="validateLatitudeLongitudeTest" duration-ms="213" started-at="2021-04-22T11:19:59Z" depends-on-methods="com.qa.test.WeatherAPITest.validateResponseCodeTest" finished-at="2021-04-22T11:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLatitudeLongitudeTest -->
+        <test-method status="PASS" signature="validateWeatherDetailsTest()[pri:3, instance:com.qa.test.WeatherAPITest@4678c730]" name="validateWeatherDetailsTest" duration-ms="133" started-at="2021-04-22T11:19:59Z" depends-on-methods="com.qa.test.WeatherAPITest.validateResponseCodeTest" finished-at="2021-04-22T11:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWeatherDetailsTest -->
+        <test-method status="PASS" signature="cleaup()[pri:0, instance:com.qa.test.WeatherAPITest@4678c730]" name="cleaup" is-config="true" duration-ms="1" started-at="2021-04-22T11:19:59Z" finished-at="2021-04-22T11:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaup -->
+      </class> <!-- com.qa.test.WeatherAPITest -->
+    </test> <!-- Verify predicted temperatures of 7 days and find the number of sunny days -->
+  </suite> <!-- Validate Open weather map API -->
+</testng-results>

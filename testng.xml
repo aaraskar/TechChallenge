@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Validate Open weather map API" verbose="1">
+
+
+	<test
+		name="Verify predicted temperatures of 7 days and find the number of sunny days">
+		<classes>
+
+			<class name="com.qa.test.WeatherAPITest" />
+
+		</classes>
+	</test>
+
+</suite>
