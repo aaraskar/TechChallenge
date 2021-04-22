@@ -48,7 +48,8 @@ This is a weather api client code.
 <<Root Dir>>\testng.xml : This is a testNG configuration file
 <<Root Dir>>\pom.xml : This file contains all the maven dependencies.
 
-Sample output
+**Sample output**
+####################################################################
 Below is the sample output which shows the number of days in Sydney where the temperature is predicated to be above 20 degrees in next 7 days from the current date and find how days it is predicted to be sunny in the same time period.
 Note here current date is 22-04-2021. Sydney is specified using its latitude and longitude values in the request.
 Output:
