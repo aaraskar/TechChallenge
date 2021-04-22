@@ -10,6 +10,8 @@ Tools and Technology used:
 Java, Rest assured library,TestNG, Maven,Log4j API
 API used: One call API  https://openweathermap.org/api/one-call-api
 
+Note:One call API uses latitude and longitude to predict the weather for a location. Sydney is identified with latitude=33.8688 and longitude=151.2093
+
 Problem statement:
 =================================
 Find the number of days in Sydney where the temperature is predicated to be above 20 degrees (at the time of calling the API) in the next 7 days (from the current days date), or whichever period the free subscription will allow.
